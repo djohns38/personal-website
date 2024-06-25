@@ -328,6 +328,13 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-sub-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 300;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -433,4 +440,92 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.experience-card {
+  flex: 0 0 100%;
+  display: none;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.carousel-control.left {
+  left: 10px;
+}
+
+.carousel-control.right {
+  right: 10px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box; /* Makes sure padding and border are included in width/height */
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.experience-sub-title {
+  margin-bottom: 20px;
+}
+
+.experience-content {
+  display: flex;
+  width: 100%;
+}
+
+.experience-logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  max-width: 60%;
+  height: auto; /* Adjust based on your logo's aspect ratio */
+}
+
+.article-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.article {
+  width: 45%; /* Adjust based on number of items and container size */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Maintain aspect ratio */
 }
