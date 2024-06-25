@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -43,7 +43,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 a {
@@ -53,15 +53,15 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: #6082C2;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #6082C2;
 }
 
 .logo {
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .logo:hover {
@@ -169,6 +169,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  padding-bottom: 10vh;
 }
 
 .section__pic-container {
@@ -183,7 +184,7 @@ section {
   text-align: center;
 }
 
-.section__text p {
+.section__text p, h1 {
   font-weight: 600;
 }
 
@@ -193,19 +194,20 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.55rem;
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: .75rem;
 }
 
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
+  margin-top: 2rem;
+  gap: 2rem;
 }
 
 /* ICONS */
@@ -233,7 +235,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #6082C2 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -243,12 +245,12 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #6082C2;
   color: white;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: #6082C2;
 }
 
 .btn-color-2 {
