@@ -81,6 +81,12 @@
   .logo {
     font-size: 1.5rem;
   }
+
+  .experience-logo {
+    flex: 0;
+    display: none;
+  }
+
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
@@ -99,5 +105,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  li {
+    list-style-type: none;
   }
 }

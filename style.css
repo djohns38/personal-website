@@ -200,7 +200,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: .75rem;
+  margin-bottom: 5vh;
 }
 
 #socials-container {
@@ -297,16 +297,6 @@ section {
   bottom: 2.5rem;
 }
 
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
-}
-
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -336,6 +326,11 @@ section {
   font-weight: 300;
   font-size: 1rem;
   margin-bottom: 2rem;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
 }
 
 .experience-details-container {
@@ -346,11 +341,15 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: left;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+}
+
+li {
+  padding: 2.5vh;
 }
 
 article {
@@ -486,8 +485,17 @@ footer p {
   text-align: center;
   background: white;
   border-radius: 10px;
-  padding: 20px;
+  padding: 2.5vh;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.details-container {
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .experience-sub-title {
@@ -497,6 +505,7 @@ footer p {
 .experience-content {
   display: flex;
   width: 100%;
+  padding-bottom: 5vh;
 }
 
 .experience-logo {
